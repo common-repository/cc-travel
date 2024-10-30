@@ -1,0 +1,1186 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .container-sm {
+    max-width: 540px; } }
+@media (min-width: 768px) {
+  .container-md {
+    max-width: 720px; } }
+@media (min-width: 992px) {
+  .container-lg {
+    max-width: 960px; } }
+@media (min-width: 1200px) {
+  .container-xl {
+    max-width: 1140px; } }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; }
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%; }
+
+.col-1 {
+  flex: 0 0 8.3333333333%;
+  max-width: 8.3333333333%; }
+
+.col-2 {
+  flex: 0 0 16.6666666667%;
+  max-width: 16.6666666667%; }
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%; }
+
+.col-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%; }
+
+.col-5 {
+  flex: 0 0 41.6666666667%;
+  max-width: 41.6666666667%; }
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%; }
+
+.col-7 {
+  flex: 0 0 58.3333333333%;
+  max-width: 58.3333333333%; }
+
+.col-8 {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%; }
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%; }
+
+.col-10 {
+  flex: 0 0 83.3333333333%;
+  max-width: 83.3333333333%; }
+
+.col-11 {
+  flex: 0 0 91.6666666667%;
+  max-width: 91.6666666667%; }
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+.offset-1 {
+  margin-left: 8.3333333333%; }
+
+.offset-2 {
+  margin-left: 16.6666666667%; }
+
+.offset-3 {
+  margin-left: 25%; }
+
+.offset-4 {
+  margin-left: 33.3333333333%; }
+
+.offset-5 {
+  margin-left: 41.6666666667%; }
+
+.offset-6 {
+  margin-left: 50%; }
+
+.offset-7 {
+  margin-left: 58.3333333333%; }
+
+.offset-8 {
+  margin-left: 66.6666666667%; }
+
+.offset-9 {
+  margin-left: 75%; }
+
+.offset-10 {
+  margin-left: 83.3333333333%; }
+
+.offset-11 {
+  margin-left: 91.6666666667%; }
+
+@media (min-width: 576px) {
+  .col-sm {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+
+  .col-sm-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+
+  .col-sm-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%; }
+
+  .col-sm-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%; }
+
+  .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .col-sm-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%; }
+
+  .col-sm-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%; }
+
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+  .col-sm-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%; }
+
+  .col-sm-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%; }
+
+  .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .col-sm-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%; }
+
+  .col-sm-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%; }
+
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+
+  .offset-sm-0 {
+    margin-left: 0; }
+
+  .offset-sm-1 {
+    margin-left: 8.3333333333%; }
+
+  .offset-sm-2 {
+    margin-left: 16.6666666667%; }
+
+  .offset-sm-3 {
+    margin-left: 25%; }
+
+  .offset-sm-4 {
+    margin-left: 33.3333333333%; }
+
+  .offset-sm-5 {
+    margin-left: 41.6666666667%; }
+
+  .offset-sm-6 {
+    margin-left: 50%; }
+
+  .offset-sm-7 {
+    margin-left: 58.3333333333%; }
+
+  .offset-sm-8 {
+    margin-left: 66.6666666667%; }
+
+  .offset-sm-9 {
+    margin-left: 75%; }
+
+  .offset-sm-10 {
+    margin-left: 83.3333333333%; }
+
+  .offset-sm-11 {
+    margin-left: 91.6666666667%; } }
+@media (min-width: 768px) {
+  .col-md {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+
+  .col-md-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+
+  .col-md-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%; }
+
+  .col-md-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%; }
+
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .col-md-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%; }
+
+  .col-md-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%; }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+  .col-md-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%; }
+
+  .col-md-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%; }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .col-md-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%; }
+
+  .col-md-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%; }
+
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+
+  .offset-md-0 {
+    margin-left: 0; }
+
+  .offset-md-1 {
+    margin-left: 8.3333333333%; }
+
+  .offset-md-2 {
+    margin-left: 16.6666666667%; }
+
+  .offset-md-3 {
+    margin-left: 25%; }
+
+  .offset-md-4 {
+    margin-left: 33.3333333333%; }
+
+  .offset-md-5 {
+    margin-left: 41.6666666667%; }
+
+  .offset-md-6 {
+    margin-left: 50%; }
+
+  .offset-md-7 {
+    margin-left: 58.3333333333%; }
+
+  .offset-md-8 {
+    margin-left: 66.6666666667%; }
+
+  .offset-md-9 {
+    margin-left: 75%; }
+
+  .offset-md-10 {
+    margin-left: 83.3333333333%; }
+
+  .offset-md-11 {
+    margin-left: 91.6666666667%; } }
+@media (min-width: 992px) {
+  .col-lg {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+
+  .col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+
+  .col-lg-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%; }
+
+  .col-lg-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%; }
+
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .col-lg-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%; }
+
+  .col-lg-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%; }
+
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+  .col-lg-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%; }
+
+  .col-lg-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%; }
+
+  .col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .col-lg-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%; }
+
+  .col-lg-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%; }
+
+  .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+
+  .offset-lg-0 {
+    margin-left: 0; }
+
+  .offset-lg-1 {
+    margin-left: 8.3333333333%; }
+
+  .offset-lg-2 {
+    margin-left: 16.6666666667%; }
+
+  .offset-lg-3 {
+    margin-left: 25%; }
+
+  .offset-lg-4 {
+    margin-left: 33.3333333333%; }
+
+  .offset-lg-5 {
+    margin-left: 41.6666666667%; }
+
+  .offset-lg-6 {
+    margin-left: 50%; }
+
+  .offset-lg-7 {
+    margin-left: 58.3333333333%; }
+
+  .offset-lg-8 {
+    margin-left: 66.6666666667%; }
+
+  .offset-lg-9 {
+    margin-left: 75%; }
+
+  .offset-lg-10 {
+    margin-left: 83.3333333333%; }
+
+  .offset-lg-11 {
+    margin-left: 91.6666666667%; } }
+@media (min-width: 1200px) {
+  .col-xl {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+
+  .col-xl-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%; }
+
+  .col-xl-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%; }
+
+  .col-xl-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%; }
+
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%; }
+
+  .col-xl-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%; }
+
+  .col-xl-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%; }
+
+  .col-xl-6 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+  .col-xl-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%; }
+
+  .col-xl-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%; }
+
+  .col-xl-9 {
+    flex: 0 0 75%;
+    max-width: 75%; }
+
+  .col-xl-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%; }
+
+  .col-xl-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%; }
+
+  .col-xl-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+
+  .offset-xl-0 {
+    margin-left: 0; }
+
+  .offset-xl-1 {
+    margin-left: 8.3333333333%; }
+
+  .offset-xl-2 {
+    margin-left: 16.6666666667%; }
+
+  .offset-xl-3 {
+    margin-left: 25%; }
+
+  .offset-xl-4 {
+    margin-left: 33.3333333333%; }
+
+  .offset-xl-5 {
+    margin-left: 41.6666666667%; }
+
+  .offset-xl-6 {
+    margin-left: 50%; }
+
+  .offset-xl-7 {
+    margin-left: 58.3333333333%; }
+
+  .offset-xl-8 {
+    margin-left: 66.6666666667%; }
+
+  .offset-xl-9 {
+    margin-left: 75%; }
+
+  .offset-xl-10 {
+    margin-left: 83.3333333333%; }
+
+  .offset-xl-11 {
+    margin-left: 91.6666666667%; } }
+.cct-archive-tour {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #5E6D77; }
+  .cct-archive-tour .left .cct-inner-content {
+    order: 2; }
+  .cct-archive-tour .left .cct-sidebar {
+    order: 1; }
+
+a {
+  outline: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.cct-image {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  line-height: 0; }
+  .cct-image:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s; }
+
+.cct-pagination {
+  text-align: center;
+  margin-bottom: 20px; }
+  .cct-pagination .page-numbers {
+    border: 1px solid #ddd;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
+    margin: 0 5px;
+    position: relative;
+    border-radius: 50%; }
+
+.cct-load {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 100%;
+  left: 0;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s ease-in-out 0s, background 0.3s ease-in-out 0s, z-index 0.3s ease-in-out 0s;
+  width: 100%;
+  z-index: 0; }
+  .cct-load.loading {
+    display: block;
+    z-index: 1101; }
+  .cct-load span {
+    background: url("../images/loading.gif") no-repeat;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 25% auto 0; }
+
+.cct-grid .item-tour {
+  margin-bottom: 30px; }
+  .cct-grid .item-tour .item-tour-wrapper {
+    background: #f5f5f5;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.4); }
+  .cct-grid .item-tour .item-thumbnail {
+    position: relative; }
+    .cct-grid .item-tour .item-thumbnail .travel-style {
+      position: absolute;
+      left: 0;
+      top: 20px; }
+      .cct-grid .item-tour .item-thumbnail .travel-style a {
+        background: #08c;
+        color: #fff;
+        padding: 3px 10px;
+        font-size: 14px;
+        border-radius: 0 3px 3px 0; }
+  .cct-grid .item-tour .item-data {
+    margin: 0 20px; }
+    .cct-grid .item-tour .item-data .item-title {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 10px 0;
+      font-family: "Poppins", sans-serif;
+      line-height: 24px; }
+      .cct-grid .item-tour .item-data .item-title:before {
+        content: none; }
+      .cct-grid .item-tour .item-data .item-title a {
+        color: #1A2B50; }
+        .cct-grid .item-tour .item-data .item-title a:hover {
+          color: #08c; }
+    .cct-grid .item-tour .item-data .item-destination {
+      color: #5E6D77;
+      margin: 7px 0; }
+      .cct-grid .item-tour .item-data .item-destination i {
+        font-size: 15px; }
+      .cct-grid .item-tour .item-data .item-destination a {
+        color: #5E6D77;
+        font-size: 13px; }
+        .cct-grid .item-tour .item-data .item-destination a:hover {
+          color: #08c; }
+    .cct-grid .item-tour .item-data .item-desc {
+      margin-top: 10px;
+      font-size: 14px; }
+    .cct-grid .item-tour .item-data .item-actions {
+      margin-top: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      align-items: center; }
+      .cct-grid .item-tour .item-data .item-actions .price {
+        margin-left: auto;
+        font-family: #1A2B50; }
+        .cct-grid .item-tour .item-data .item-actions .price .sale-price {
+          font-weight: bold;
+          font-size: 25px;
+          color: #111; }
+        .cct-grid .item-tour .item-data .item-actions .price .regular-price {
+          margin-right: 5px;
+          color: #5E6D77;
+          font-size: 15px; }
+          .cct-grid .item-tour .item-data .item-actions .price .regular-price.no-sale {
+            font-weight: bold;
+            font-size: 25px;
+            color: #111; }
+
+.cct-list .item-tour {
+  margin-bottom: 30px; }
+  .cct-list .item-tour .item-tour-wrapper {
+    background: #f5f5f5;
+    border: 1px solid #ddd; }
+  .cct-list .item-tour .item-thumbnail {
+    position: relative; }
+    .cct-list .item-tour .item-thumbnail .travel-style {
+      position: absolute;
+      left: 0;
+      top: 20px; }
+      .cct-list .item-tour .item-thumbnail .travel-style a {
+        background: #08c;
+        color: #fff;
+        padding: 3px 10px;
+        font-size: 14px;
+        border-radius: 0 3px 3px 0; }
+  .cct-list .item-tour .item-data {
+    position: relative;
+    padding: 15px 0; }
+    .cct-list .item-tour .item-data .item-title {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 0 0 10px;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase; }
+      .cct-list .item-tour .item-data .item-title:before {
+        content: none; }
+      .cct-list .item-tour .item-data .item-title a {
+        color: #1A2B50; }
+        .cct-list .item-tour .item-data .item-title a:hover {
+          color: #08c; }
+    .cct-list .item-tour .item-data .item-destination {
+      color: #5E6D77;
+      margin: 15px 0; }
+      .cct-list .item-tour .item-data .item-destination i {
+        font-size: 15px; }
+      .cct-list .item-tour .item-data .item-destination a {
+        color: #5E6D77;
+        font-size: 13px; }
+        .cct-list .item-tour .item-data .item-destination a:hover {
+          color: #08c; }
+    .cct-list .item-tour .item-data .item-desc {
+      margin-top: 10px;
+      font-size: 14px; }
+    .cct-list .item-tour .item-data .price {
+      position: absolute;
+      font-family: "Poppins", sans-serif;
+      right: 10px;
+      top: 10px;
+      display: block;
+      background: #08c;
+      padding: 3px 20px;
+      border-radius: 5px;
+      color: #fff; }
+      .cct-list .item-tour .item-data .price .sale-price {
+        font-weight: bold;
+        font-size: 25px;
+        color: #fff; }
+      .cct-list .item-tour .item-data .price .regular-price {
+        margin-right: 5px;
+        color: #fff;
+        font-size: 15px;
+        position: relative; }
+        .cct-list .item-tour .item-data .price .regular-price:after {
+          position: absolute;
+          content: '';
+          top: 50%;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: #000; }
+        .cct-list .item-tour .item-data .price .regular-price.no-sale {
+          font-weight: bold;
+          font-size: 25px;
+          color: #fff; }
+          .cct-list .item-tour .item-data .price .regular-price.no-sale:after {
+            content: none; }
+
+.cc-travel-widget {
+  border: 1px solid #ddd;
+  margin-bottom: 20px; }
+  .cc-travel-widget .cctw-title {
+    margin: 0;
+    background: #ddd;
+    padding: 13px 10px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #1A2B50;
+    font-weight: normal; }
+  .cc-travel-widget .cctw-content {
+    padding: 13px 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px; }
+    .cc-travel-widget .cctw-content ul {
+      margin: 0;
+      padding: 0; }
+    .cc-travel-widget .cctw-content .slider-container {
+      width: calc(100% - 20px) !important;
+      margin: 20px 10px;
+      font-family: "Poppins", sans-serif; }
+      .cc-travel-widget .cctw-content .slider-container .back-bar .pointer-label {
+        color: "Poppins", sans-serif;
+        font-size: 13px; }
+      .cc-travel-widget .cctw-content .slider-container .scale {
+        display: none; }
+
+.cc-travel-widget-filter-by-taxonomy .terms-wrapper .term-item {
+  list-style: none; }
+  .cc-travel-widget-filter-by-taxonomy .terms-wrapper .term-item .filter-item {
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+    color: #5E6D77; }
+    .cc-travel-widget-filter-by-taxonomy .terms-wrapper .term-item .filter-item .chosen .attr-checkbox:before, .cc-travel-widget-filter-by-taxonomy .terms-wrapper .term-item .filter-item:hover .attr-checkbox:before {
+      opacity: 1;
+      visibility: visible; }
+    .cc-travel-widget-filter-by-taxonomy .terms-wrapper .term-item .filter-item .attr-checkbox {
+      display: inline-block;
+      vertical-align: middle;
+      width: 20px;
+      height: 20px;
+      padding: 3px 4px 3px;
+      margin-right: 10px;
+      border: 1px solid #e1e1e1;
+      border-radius: 999px;
+      overflow: hidden;
+      background: none !important;
+      position: relative; }
+      .cc-travel-widget-filter-by-taxonomy .terms-wrapper .term-item .filter-item .attr-checkbox:before {
+        content: '\f00c';
+        font-family: "FontAwesome";
+        font-size: 12px;
+        color: #363636;
+        line-height: 1;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        transition: all 0.3s ease; }
+
+.cc-travel-widget-filter-by-departure-date .cctw-content {
+  display: flex; }
+  .cc-travel-widget-filter-by-departure-date .cctw-content .cct-datepicker {
+    width: 48%; }
+  .cc-travel-widget-filter-by-departure-date .cctw-content .cct-start-date {
+    margin-right: 4%; }
+
+.tour-header {
+  position: relative; }
+  .tour-header .tour-header-bg {
+    font-size: 0; }
+  .tour-header .no-banner {
+    background: #08c;
+    min-height: 400px; }
+  .tour-header .tour-header-opacity {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2); }
+  .tour-header .tour-header-content {
+    position: absolute;
+    height: 100%;
+    display: block;
+    top: 0;
+    width: 100%; }
+    .tour-header .tour-header-content .tour-header-inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      height: 100%;
+      transform: none;
+      top: auto; }
+      .tour-header .tour-header-content .tour-header-inner .price {
+        font-family: "Poppins", sans-serif;
+        font-size: 22px; }
+        .tour-header .tour-header-content .tour-header-inner .price .regular-price {
+          font-size: 15px;
+          color: #fff;
+          position: relative; }
+          .tour-header .tour-header-content .tour-header-inner .price .regular-price:after {
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #000; }
+          .tour-header .tour-header-content .tour-header-inner .price .regular-price.no-sale {
+            font-size: 22px;
+            color: #08c; }
+            .tour-header .tour-header-content .tour-header-inner .price .regular-price.no-sale:after {
+              content: none; }
+        .tour-header .tour-header-content .tour-header-inner .price .sale-price {
+          color: #08c;
+          margin-left: 5px; }
+        .tour-header .tour-header-content .tour-header-inner .price .text {
+          color: #fff; }
+      .tour-header .tour-header-content .tour-header-inner .tour-title {
+        margin: 0;
+        font-size: 50px; }
+        .tour-header .tour-header-content .tour-header-inner .tour-title a {
+          font-family: "Poppins", sans-serif;
+          color: #fff; }
+
+.cct-tabs {
+  margin-top: -120px;
+  z-index: 999;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300; }
+  .cct-tabs .cct-tab-nav ul {
+    margin: 0;
+    padding: 0; }
+    .cct-tabs .cct-tab-nav ul li {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 13px 37px 10px;
+      transition: all .25s ease-in-out; }
+      .cct-tabs .cct-tab-nav ul li.active, .cct-tabs .cct-tab-nav ul li:hover {
+        background: #fff; }
+        .cct-tabs .cct-tab-nav ul li.active a, .cct-tabs .cct-tab-nav ul li:hover a {
+          color: #111; }
+      .cct-tabs .cct-tab-nav ul li a {
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px; }
+  .cct-tabs .cct-tab-contents {
+    background: #fff;
+    padding: 30px; }
+    .cct-tabs .cct-tab-contents .cct-tab-content {
+      display: none; }
+      .cct-tabs .cct-tab-contents .cct-tab-content.active {
+        display: block; }
+
+.tour-short-info {
+  margin: 20px 0;
+  display: flex; }
+  .tour-short-info .age {
+    margin-left: 30px; }
+
+.tour-full-info {
+  margin-bottom: 20px; }
+  .tour-full-info ul {
+    margin: 0;
+    padding: 0; }
+    .tour-full-info ul li {
+      list-style: none;
+      padding: 15px 0;
+      border-bottom: 1px dashed #ddd;
+      display: flex; }
+      .tour-full-info ul li:last-child {
+        border: none; }
+      .tour-full-info ul li label {
+        width: 30%;
+        font-weight: 400; }
+
+.tour-highlights .highlights-title {
+  position: relative;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase; }
+.tour-highlights .item-highlight {
+  padding: 0 10px; }
+  .tour-highlights .item-highlight .item-title {
+    margin: 15px 0 1px;
+    font-size: 20px;
+    font-weight: bold; }
+  .tour-highlights .item-highlight .item-desc {
+    font-size: 14px; }
+.tour-highlights .slick-dots {
+  bottom: -40px; }
+  .tour-highlights .slick-dots li {
+    margin: 0; }
+
+.tour-plans .tour-plan {
+  display: flex;
+  align-items: baseline;
+  position: relative; }
+  .tour-plans .tour-plan:after {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #ddd;
+    content: '';
+    left: 19px;
+    top: 14px;
+    z-index: 1; }
+  .tour-plans .tour-plan .tour-plan-route {
+    width: 40px;
+    height: 40px;
+    background: #08c;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    z-index: 2; }
+  .tour-plans .tour-plan .tour-plan-content {
+    margin-left: 40px;
+    width: calc(100% - 80px); }
+    .tour-plans .tour-plan .tour-plan-content .plan-title {
+      margin-top: 0;
+      font-family: "Poppins", sans-serif;
+      font-size: 25px; }
+    .tour-plans .tour-plan .tour-plan-content .plan-info {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 30px; }
+      .tour-plans .tour-plan .tour-plan-content .plan-info li {
+        padding: 10px 0;
+        list-style: none;
+        display: flex;
+        border-bottom: 1px solid #ddd; }
+        .tour-plans .tour-plan .tour-plan-content .plan-info li label {
+          width: 20%; }
+
+.tour-location iframe {
+  width: 100%; }
+
+.tour-gallery .item-image {
+  margin-bottom: 30px; }
+
+.book-now a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 12px 20px;
+  border-radius: 5px;
+  background: #08c;
+  position: relative;
+  display: inline-block; }
+.book-now.book-now-bottom {
+  text-align: center;
+  margin: 20px auto; }
+
+@media (max-width: 992px) {
+  .cct-tabs {
+    margin-top: 0; }
+    .cct-tabs .cct-tab-nav ul li a {
+      color: #111; }
+    .cct-tabs .cct-tab-contents {
+      padding-top: 10px; } }
+.cct-booking {
+  font-family: "Poppins", sans-serif;
+  color: #5E6D77;
+  font-size: 14px;
+  margin: 20px; }
+  .cct-booking .booking-title {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 20px; }
+  .cct-booking .tour-info h4 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0; }
+  .cct-booking .thankyou {
+    text-align: center;
+    font-size: 30px; }
+
+.cct-booking-form .input-group {
+  margin-bottom: 20px; }
+  .cct-booking-form .input-group span {
+    font-size: 25px;
+    color: #08c;
+    font-weight: 600; }
+.cct-booking-form input,
+.cct-booking-form textarea,
+.cct-booking-form select {
+  background-color: #b7defd;
+  border-color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-width: 1px;
+  border-style: solid;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  border-spacing: 8px;
+  font-family: "Poppins", sans-serif; }
+  .cct-booking-form input.error,
+  .cct-booking-form textarea.error,
+  .cct-booking-form select.error {
+    border-color: red; }
+.cct-booking-form textarea {
+  min-height: 150px; }
+.cct-booking-form .cct-booking-submit {
+  background: #08c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer; }
+.cct-booking-form .price {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px; }
+  .cct-booking-form .price .regular-price {
+    font-size: 15px;
+    color: #5E6D77;
+    position: relative; }
+    .cct-booking-form .price .regular-price:after {
+      position: absolute;
+      content: '';
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #000; }
+    .cct-booking-form .price .regular-price.no-sale {
+      font-size: 22px;
+      color: #08c; }
+      .cct-booking-form .price .regular-price.no-sale:after {
+        content: none; }
+  .cct-booking-form .price .sale-price {
+    color: #08c;
+    margin-left: 5px; }
+  .cct-booking-form .price .text {
+    color: #fff; }
+
+.destination-header {
+  position: relative; }
+  .destination-header .destination-header-bg {
+    font-size: 0; }
+  .destination-header .destination-header-opacity {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2); }
+  .destination-header .destination-header-content {
+    position: absolute;
+    height: 100%;
+    display: block;
+    top: 0;
+    width: 100%; }
+    .destination-header .destination-header-content .destination-header-inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      height: 100%;
+      transform: none;
+      top: auto; }
+      .destination-header .destination-header-content .destination-header-inner .destination-name {
+        margin: 0;
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        text-align: center; }
+        .destination-header .destination-header-content .destination-header-inner .destination-name a {
+          font-family: "Poppins", sans-serif;
+          color: #fff; }
+
+.destination-info {
+  margin-top: 30px; }
+  .destination-info .destination-info-list .cct-accordion .cct-item:last-child .item-title {
+    border: none; }
+  .destination-info .destination-info-list .cct-accordion .item-desc {
+    display: none; }
+  .destination-info .destination-info-list .cct-accordion .item-title {
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    font-size: 18px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; }
+    .destination-info .destination-info-list .cct-accordion .item-title.on {
+      color: #08c; }
+      .destination-info .destination-info-list .cct-accordion .item-title.on i::before {
+        content: '\f106'; }
+    .destination-info .destination-info-list .cct-accordion .item-title i {
+      margin-right: 15px;
+      font-size: 18px; }
+
+.destination-gallery .item-image {
+  margin-bottom: 30px; }
+
+.destination-overview {
+  margin-top: 30px;
+  font-size: 15px;
+  line-height: 1.6; }
+
+.destination-tours {
+  margin-top: 30px; }
+
+.cct-destination {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #5E6D77; }
+  .cct-destination .destination-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #08c;
+    font-size: 30px; }
+
+.ccts-tour-grid {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #5E6D77; }
+  .ccts-tour-grid a {
+    text-decoration: none !important; }
+
+.ccts-tour-list {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #5E6D77; }
+  .ccts-tour-list a {
+    text-decoration: none !important; }

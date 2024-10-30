@@ -1,0 +1,231 @@
+/**
+ *
+ * -----------------------------------------------------------
+ *
+ * CC Framework
+ * A Lightweight and easy-to-use WordPress Options Framework
+ *
+ *
+ * -----------------------------------------------------------
+ *
+ */
+.cc-framework {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.cc-framework .cc-header h1 {
+  float: right;
+}
+.cc-framework .cc-header fieldset {
+  float: left;
+}
+.cc-framework .cc-nav {
+  float: right;
+}
+.cc-framework .cc-nav ul {
+  clear: right;
+}
+.cc-framework .cc-nav ul li .cc-section-active:after {
+  right: auto;
+  left: 0;
+  border-left-color: #fff;
+  border-right-color: transparent;
+}
+.cc-framework .cc-nav ul li .cc-arrow:after {
+  content: "\f053";
+  right: auto;
+  left: 10px;
+}
+.cc-framework .cc-nav ul li.cc-tab-active .cc-arrow:after {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.cc-framework .cc-nav ul ul li a {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.cc-framework .cc-nav ul ul:before {
+  left: auto;
+  right: 15px;
+}
+.cc-framework .cc-nav .cc-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+.cc-framework .cc-nav-background {
+  left: auto;
+  right: 0;
+}
+.cc-framework .cc-content {
+  margin-left: 0;
+  margin-right: 225px;
+}
+.cc-framework .cc-content .cc-sections {
+  float: right;
+}
+.cc-framework .cc-show-all .cc-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+.cc-framework .cc-expand-all {
+  right: auto;
+  left: 40px;
+}
+.cc-framework .cc-footer {
+  text-align: left;
+}
+
+.cc-metabox-framework {
+  margin: -6px -12px -12px -12px;
+}
+.cc-metabox-framework .cc-content .cc-section-title {
+  padding: 20px;
+}
+
+.cc-element .cc-title {
+  float: right;
+}
+.cc-element .cc-fieldset {
+  margin-left: 0;
+  margin-right: 30%;
+}
+
+.cc-pseudo-field {
+  padding: 0 0 0 5px !important;
+}
+
+.cc-field-number em {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.cc-field-typography select,
+.cc-field-typography .chosen-container {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cc-field-checkbox .horizontal li,
+.cc-field-radio .horizontal li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.cc-field-switcher label {
+  float: right;
+}
+.cc-field-switcher .cc-text-desc {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.cc-field-color_picker .cc-alpha-slider {
+  margin-left: 0;
+  margin-right: 2px;
+}
+.cc-field-color_picker .cc-alpha-slider .ui-slider-handle {
+  margin: 0 -11px;
+}
+.cc-field-color_picker .cc-alpha-slider-offset {
+  background-position: center right;
+}
+.cc-field-color_picker .cc-alpha-text {
+  right: auto;
+  left: 10px;
+}
+
+.cc-field-group .ui-accordion-icons {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.cc-field-group .ui-accordion-header-icon {
+  left: auto;
+  right: .5em;
+}
+.cc-field-group .dashicons-arrow-right:before {
+  content: "\f141";
+}
+
+.cc-help {
+  right: auto;
+  left: 5px;
+}
+
+.cc-field-icon .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.cc-field-icon .cc-icon-preview i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cc-field-gallery ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.cc-field-gallery .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cc-field-sorter .cc-modules {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.cc-taxonomy-add-fields .cc-fieldset {
+  margin-right: 0;
+}
+.cc-taxonomy-add-fields .cc-help {
+  left: -5px;
+  right: auto;
+}
+
+.cc-taxonomy-edit-fields .cc-fieldset {
+  margin-left: 0;
+  margin-right: 225px;
+}
+.cc-taxonomy-edit-fields .cc-help {
+  right: auto;
+  left: -5px;
+}
+
+#cc-save-ajax {
+  right: auto;
+  left: 5px;
+}
+
+.cc-dialog .cc-element {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+.cc-dialog .cc-shortcode-clone .cc-remove-clone {
+  right: auto;
+  left: 5px;
+}
+
+#customize-controls .cc-element .cc-fieldset,
+.widget-content .cc-element .cc-fieldset,
+#side-sortables .cc-element .cc-fieldset {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cc-metabox-framework .cc-element .cc-fieldset {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .cc-framework .cc-fieldset,
+  .cc-framework .cc-content {
+    margin-right: 0;
+  }
+}
+.ui-dialog {
+  right: auto;
+}
